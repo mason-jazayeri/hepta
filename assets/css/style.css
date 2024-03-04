@@ -1,0 +1,114 @@
+.header {
+    z-index: 10;
+    padding-top: 48px;
+}
+
+.header .menu {
+    transform: translateY(-4px);
+}
+
+.hero-section {
+    background-image: url("../images/hero-section-background-photo.webp");
+}
+
+.hero-section .headline {
+    line-height: normal;
+    margin-bottom: 7px;
+}
+
+.hero-section .tagline {
+    line-height: normal;
+    margin-bottom: 56px;
+}
+
+.hero-section .hero-button {
+    margin-bottom: 17px;
+}
+
+.hero-section .scroll-down-btn {
+    top: auto;
+    bottom: 20;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero-section .scroll-down-btn .icon {
+    transform: rotate(90deg);
+    font-size: 1.3rem;
+}
+
+.hero-section .scroll-down-btn .text {
+    font-family: 'Mukta Mahee';
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.brief-introduction {
+    padding-top: 125px;
+    padding-bottom: 170px;
+}
+
+.brief-introduction .call-to-action {
+    gap: 15px;
+}
+
+.brief-introduction .call-to-action .text {
+    font-family: 'Mukta Mahee';
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 1.4px;
+    color: #65c0ba;
+}
+
+.brief-introduction .call-to-action:hover .btn-play {
+    border-color: #000;
+}
+
+.brief-introduction .call-to-action:hover .btn-play .fa-solid.fa-play {
+    color: #000;
+}
+
+.brief-introduction .call-to-action:hover .text {
+    color: #3f9a94;
+}
+
+.service-features {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 115px;
+    padding-bottom: 140px;
+}
+
+.service-features .items {
+    padding: 15px;
+}
+
+.service-features .items img {
+    width: 70px;
+    height: 70px;
+}
+
+.bold-feature {
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+
+.bold-feature .slider .chevron {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4rem;
+    color: #495057;
+    cursor: pointer;
+}
+
+.bold-feature .slider .chevron:hover {
+    color: #6c757d;
+}
+
+.bold-feature .slider .fa-solid.fa-chevron-left {
+    left: -60px;
+}
+
+.bold-feature .slider .fa-solid.fa-chevron-right {
+    right: -60px;
+}
