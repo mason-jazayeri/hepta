@@ -1,3 +1,7 @@
+.site-wrapper {
+    overflow-x: hidden;
+}
+
 .header {
     z-index: 10;
     padding-top: 48px;
