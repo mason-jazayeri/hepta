@@ -116,3 +116,33 @@
 .bold-feature .slider .fa-solid.fa-chevron-right {
     right: -60px;
 }
+
+.recent-blog-posts::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -10px;
+    top: -380px;
+    z-index: -1;
+    height: 500px;
+    width: 110%;
+    background-color: #65c0ba;
+    transform: rotate(-4deg);
+}
+
+.recent-blog-posts .section-header p {
+    color: rgba(255, 255, 255, .7)
+}
+
+.recent-blog-posts .items-section {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.recent-blog-posts .items-section .items .item-text .content-light-gray-regular.uppercase {
+    letter-spacing: .1em;
+}
+
+.recent-blog-posts .items-section .items .item-text a:hover {
+    color: #65c0ba;
+}
